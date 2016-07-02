@@ -1,0 +1,40 @@
+html,body{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+#bloc1{
+    width: 100%;
+    height: 100%;
+    background: transparent url(proimg/flt.jpg) no-repeat 50% top;
+    background-size:cover;
+    
+}
+
+#bloc1 .table{
+    width:100%;
+    display:table;
+}
+#bloc1 .table .row{
+    display:table-row;
+}
+#bloc1 .table .row .cell{
+    width: 2%;
+    display:table-cell;
+}
+#bloc1 .table .row .cell img {
+    width: 100%;
+    display:block;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+#bloc1 .table .row .cell:hover img {
+    opacity: 1;
+
+}
+
+
+.grey-bg{
+    background: rgba(0,0,0,0.3); 
+    
+}
