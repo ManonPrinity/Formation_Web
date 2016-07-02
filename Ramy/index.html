@@ -1,8 +1,13 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 	<head>
 		<meta charset="utf-8"/>
-		<title></title>
+		<meta name="description" content="Description">
+		<meta name="keywords" content="Keyword,Max10">
+		<meta name="author" content="Name Lastname">
+		<meta name="Identifier-url" content="http://foo.bar/">
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no, shrink-to-fit=no">
+		<title>Music</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css"/>
 		<link rel="stylesheet" type="text/css" href="css/index.css"/>
 	</head>
@@ -17,52 +22,60 @@
 
 		<nav id="main_nav">
 			<a href="#skills_section">Book Image</a>
-			<a href="#projects_section">Musiques</a>
+			<a href="#music_section">Musiques</a>
 			<a href="#contact_section">Contact</a>
 		</nav>
 
-		<section id="skills_section">
-			<h2>Book Image</h2>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-		</section>
-
-		<section id="projects_section">
-			<h2>Musique</h2>
-			<div class="project">
-				<img src="img/skills/javascript.png" alt="javascript">
-				<div>
+		<main id="main" role="main">
+			<section id="skills_section">
+				<div class="max_width">
+					<h2>Book Image</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 				</div>
-				<a href="#">Ecouter</a>
-			</div>
-		</section>
+			</section>
 
-		<section id="contact_section">
-			<h2>Contact</h2>
-			<form action="mail">
-				<input type="text" name="name" placeholder="nom">
-				<input type="email" name="email" placeholder="email">
-				<textarea name="content" height="500" placeholder="message"></textarea>
-				<input type="submit" value="Envoyer">
-				<input type="reset" value="Reset">
-			</form>
-		</section>
+			<section id="music_section">
+				<div class="max_width">
+					<h2>Musique</h2>
+					<div class="project">
+						<img src="img/skills/javascript.png" alt="javascript">
+						<div>
+						</div>
+						<a href="#">Ecouter</a>
+					</div>
+				</div>
+			</section>
+
+			<section id="contact_section">
+				<div class="max_width">
+					<h2>Contact</h2>
+					<p>Envoyez-nous un message avec le formulaire suivant !<br>Nous y repondrons au plus vite.</p>
+					<form>
+						<input type="text" name="name" placeholder="nom">
+						<input type="email" name="email" placeholder="email">
+						<textarea name="content" height="500" placeholder="message"></textarea>
+						<input type="submit" value="Envoyer">
+						<input type="reset" value="Reset">
+					</form>
+				</div>
+			</section>
+		</main>
+
 
 		<footer id="main_footer">
-			<p class="follow">Retrouvez nous sur :</p>
+			<p>Retrouvez nous sur :</p>
 			<div>
-				<a href="https://plus.google.com/+FlatbushZombiesTV/posts"><img src="img/social/google.svg"></a>
-				<a href="https://www.facebook.com/FlatbushZombies/?fref=ts"><img src="img/social/facebook.svg"></a>
+				<a href="https://plus.google.com/+FlatbushZombiesTV/posts" target="_blank"><img src="img/social/google.svg"></a>
+				<a href="https://www.facebook.com/FlatbushZombies/?fref=ts" target="_blank"><img src="img/social/facebook.svg"></a>
 				<a href="https://soundcloud.com/flatbushzombies" target="_blank"><img src="img/social/soundcloud.svg"></a>
 			</div>
-			<p class="sign"></p>
 		</footer>
 
-		<!-- <script src="/socket.io/socket.io.js"></script> -->
 		<script type="text/javascript" src="scripts/index.js"></script>
 	</body>
 </html>
